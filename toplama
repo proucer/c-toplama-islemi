@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int sayi1,sayi2;
+	cout<<"lütfen islem yapmak icin ilk sayiyi girin"<<endl;
+	cin>>sayi1;
+	cout<<"lütfen islem yapmak icin ikinci sayiyi girin"<<endl;
+	cin>>sayi2;
+	int toplam;
+	toplam=sayi1+sayi2;
+	cout<<toplam;
+}
